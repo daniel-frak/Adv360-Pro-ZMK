@@ -4,9 +4,12 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: refil
       url-base: https://github.com/refil
+    - name: daniel-frak
+      url-base: https://github.com/daniel-frak
   projects:
     - name: zmk
-      remote: refil
+      remote: daniel-frak
+#      remote: refil
       revision: adv360-z3
       import: app/west.yml
   self:
